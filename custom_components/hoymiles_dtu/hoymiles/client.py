@@ -60,7 +60,7 @@ class HoymilesModbusTCP:
     _NULL_MICROINVERTER = '000000000000'
 
     def __init__(
-        self, host: str, port: int = 502, microinverter_type: MicroinverterType = MicroinverterType.MI, unit_id: int = 1, dtu_type: int = 0
+        self, host: str, port: int = 10081, microinverter_type: MicroinverterType = MicroinverterType.MI, unit_id: int = 1, dtu_type: int = 0
     ) -> None:
         """Initialize the object.
 
